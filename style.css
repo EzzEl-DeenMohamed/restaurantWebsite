@@ -1,0 +1,108 @@
+body {
+    background-color: #f9f9f9;
+}
+ 
+.like {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #ffffff;
+}
+ 
+.dislike {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+}
+
+.carousel-item img {
+    height: 33rem;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link:hover  {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin-top: 50px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 3em; 
+}
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+   
+      box-sizing: border-box;
+ 
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+
+
+
+ 
+ 
+img{
+    width: 100%;
+    
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.title{
+    text-align: center;
+    width: 100%;
+   color: yellow;
+  
+}
+
+
+
+#about{
+    padding: 25px 0;
+  }
+  .about_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+  }
+  .about_column{
+    flex: 1;
+  }
+
+  .about_column img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin: auto;
+  }
+  .title{
+    color: #373333;
+    margin-bottom: 30px;
+    padding: 50px 0 30px 0;
+    text-align: center;
+  }
+  .title1{
+    color: #373333;
+    margin-bottom: 30px;
+    padding: 50px 0 30px 0;
+    text-align: center;
+  }
+
